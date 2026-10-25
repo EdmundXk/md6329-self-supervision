@@ -1,0 +1,28 @@
+dataset,split,class_id,class_name,n,pct
+PneumoniaMNIST,train,0,normal,1214,25.79
+PneumoniaMNIST,train,1,pneumonia,3494,74.21
+PneumoniaMNIST,val,0,normal,135,25.76
+PneumoniaMNIST,val,1,pneumonia,389,74.24
+PneumoniaMNIST,test,0,normal,234,37.5
+PneumoniaMNIST,test,1,pneumonia,390,62.5
+DermaMNIST,train,0,actinic keratoses,228,3.25
+DermaMNIST,train,1,basal cell carcinoma,359,5.12
+DermaMNIST,train,2,benign keratosis,769,10.97
+DermaMNIST,train,3,dermatofibroma,80,1.14
+DermaMNIST,train,4,melanoma,779,11.12
+DermaMNIST,train,5,melanocytic nevi,4693,66.98
+DermaMNIST,train,6,vascular lesions,99,1.41
+DermaMNIST,val,0,actinic keratoses,33,3.29
+DermaMNIST,val,1,basal cell carcinoma,52,5.18
+DermaMNIST,val,2,benign keratosis,110,10.97
+DermaMNIST,val,3,dermatofibroma,12,1.2
+DermaMNIST,val,4,melanoma,111,11.07
+DermaMNIST,val,5,melanocytic nevi,671,66.9
+DermaMNIST,val,6,vascular lesions,14,1.4
+DermaMNIST,test,0,actinic keratoses,66,3.29
+DermaMNIST,test,1,basal cell carcinoma,103,5.14
+DermaMNIST,test,2,benign keratosis,220,10.97
+DermaMNIST,test,3,dermatofibroma,23,1.15
+DermaMNIST,test,4,melanoma,223,11.12
+DermaMNIST,test,5,melanocytic nevi,1341,66.88
+DermaMNIST,test,6,vascular lesions,29,1.45

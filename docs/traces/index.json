@@ -1,0 +1,12 @@
+{
+  "version": "2",
+  "traces": [
+    {
+      "id": "lectrace_presentation",
+      "title": "When does self-supervision beat ImageNet?",
+      "path": "traces/lectrace_presentation.json",
+      "step_count": 97,
+      "built_at": "2026-10-25T13:49:22.087792+00:00"
+    }
+  ]
+}

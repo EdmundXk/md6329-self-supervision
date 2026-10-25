@@ -1,0 +1,19 @@
+\begin{tabular}{llccccc}
+\toprule
+Dataset & Initialisation & \multicolumn{5}{c}{Labelled fraction of the training set} \\
+\cmidrule(lr){3-7}
+ & & 1\% & 5\% & 10\% & 25\% & 100\% \\
+\midrule
+PneumoniaMNIST & pixel random forest & 0.909\,{\tiny $\pm$\,0.022} & 0.931\,{\tiny $\pm$\,0.030} & 0.932\,{\tiny $\pm$\,0.022} & 0.940\,{\tiny $\pm$\,0.012} & 0.944\,{\tiny $\pm$\,0.002} \\
+ & from scratch & 0.929\,{\tiny $\pm$\,0.026} & 0.957\,{\tiny $\pm$\,0.027} & 0.936\,{\tiny $\pm$\,0.026} & 0.971\,{\tiny $\pm$\,0.005} & 0.979\,{\tiny $\pm$\,0.016} \\
+ & ImageNet transfer & 0.917\,{\tiny $\pm$\,0.020} & 0.953\,{\tiny $\pm$\,0.085} & 0.954\,{\tiny $\pm$\,0.036} & 0.984\,{\tiny $\pm$\,0.013} & 0.985\,{\tiny $\pm$\,0.018} \\
+ & in-domain SimCLR & 0.971\,{\tiny $\pm$\,0.028} & 0.983\,{\tiny $\pm$\,0.011} & 0.982\,{\tiny $\pm$\,0.019} & 0.986\,{\tiny $\pm$\,0.016} & 0.985\,{\tiny $\pm$\,0.005} \\
+ & ImageNet + SimCLR & 0.980\,{\tiny $\pm$\,0.002} & 0.990\,{\tiny $\pm$\,0.002} & 0.987\,{\tiny $\pm$\,0.006} & 0.994\,{\tiny $\pm$\,0.002} & 0.976\,{\tiny $\pm$\,0.030} \\
+\midrule
+DermaMNIST & pixel random forest & 0.683\,{\tiny $\pm$\,0.046} & 0.710\,{\tiny $\pm$\,0.011} & 0.744\,{\tiny $\pm$\,0.015} & 0.763\,{\tiny $\pm$\,0.010} & 0.807\,{\tiny $\pm$\,0.004} \\
+ & from scratch & 0.754\,{\tiny $\pm$\,0.072} & 0.744\,{\tiny $\pm$\,0.130} & 0.795\,{\tiny $\pm$\,0.015} & 0.843\,{\tiny $\pm$\,0.061} & 0.880\,{\tiny $\pm$\,0.051} \\
+ & ImageNet transfer & 0.753\,{\tiny $\pm$\,0.039} & 0.780\,{\tiny $\pm$\,0.027} & 0.823\,{\tiny $\pm$\,0.057} & 0.845\,{\tiny $\pm$\,0.027} & 0.914\,{\tiny $\pm$\,0.049} \\
+ & in-domain SimCLR & 0.738\,{\tiny $\pm$\,0.063} & 0.765\,{\tiny $\pm$\,0.039} & 0.798\,{\tiny $\pm$\,0.062} & 0.840\,{\tiny $\pm$\,0.025} & 0.887\,{\tiny $\pm$\,0.030} \\
+ & ImageNet + SimCLR & 0.743\,{\tiny $\pm$\,0.042} & 0.773\,{\tiny $\pm$\,0.038} & 0.818\,{\tiny $\pm$\,0.025} & 0.855\,{\tiny $\pm$\,0.043} & 0.891\,{\tiny $\pm$\,0.038} \\
+\bottomrule
+\end{tabular}

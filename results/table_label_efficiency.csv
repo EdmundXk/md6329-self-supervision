@@ -1,0 +1,9 @@
+dataset,arm,auroc_at_10pct,scratch_frac_to_match,label_efficiency_x
+pneumoniamnist,scratch,0.9357549857549857,0.05,0.5
+pneumoniamnist,imagenet,0.9538132807363576,0.05,0.5
+pneumoniamnist,ssl,0.9815965373657681,,
+pneumoniamnist,ssl_imnet,0.9871411352180584,,
+dermamnist,scratch,0.7947213898043571,0.1,1.0
+dermamnist,imagenet,0.8231201674624214,0.25,2.5
+dermamnist,ssl,0.7979210804812521,0.25,2.5
+dermamnist,ssl_imnet,0.8178978725773559,0.25,2.5

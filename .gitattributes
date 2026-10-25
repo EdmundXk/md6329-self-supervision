@@ -1,0 +1,15 @@
+# Normalise text files, but never touch binaries. Without this git would apply
+# CRLF conversion to the PDF, the figures and the .npz result files, which
+# corrupts them on checkout.
+* text=auto
+
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.npz  binary
+*.zip  binary
+*.docx binary
+*.pt   binary
+
+# The built LecTrace site is generated output: keep it byte-for-byte.
+docs/** -text

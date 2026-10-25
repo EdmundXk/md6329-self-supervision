@@ -1,0 +1,11 @@
+dataset,frac,n_labelled,classes,min_class
+PneumoniaMNIST,0.01,47,2,12
+PneumoniaMNIST,0.05,236,2,61
+PneumoniaMNIST,0.1,470,2,121
+PneumoniaMNIST,0.25,1178,2,304
+PneumoniaMNIST,1.0,4708,2,1214
+DermaMNIST,0.01,83,7,5
+DermaMNIST,0.05,351,7,5
+DermaMNIST,0.1,701,7,8
+DermaMNIST,0.25,1752,7,20
+DermaMNIST,1.0,7007,7,80

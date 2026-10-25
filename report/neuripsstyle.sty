@@ -1,0 +1,18 @@
+
+% neuripsstyle.sty - layout matching the NeurIPS single-column submission format
+% (geometry, typeface and heading sizes follow neurips_2024.sty).
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{neuripsstyle}[2024/05/01 NeurIPS-like layout]
+\RequirePackage[margin=1.5in,top=1.0in,bottom=1.0in]{geometry}
+\RequirePackage{times}
+\RequirePackage{titlesec}
+\RequirePackage{caption}
+\captionsetup{font=small,labelfont=bf,skip=4pt}
+\titleformat{\section}{\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{1.6ex plus .3ex}{0.8ex}
+\titlespacing*{\subsection}{0pt}{1.2ex plus .2ex}{0.6ex}
+\setlength{\parskip}{0.2ex}
+\renewcommand{\baselinestretch}{1.0}
+\newcommand{\nipstitle}[1]{\begin{center}\LARGE\bfseries #1\end{center}\vspace{0.4em}}
+\newcommand{\nipsauthor}[1]{\begin{center}\normalsize #1\end{center}\vspace{0.6em}}

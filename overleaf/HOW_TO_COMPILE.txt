@@ -1,0 +1,29 @@
+Compiling this report on Overleaf
+================================
+
+This folder does NOT contain neurips_2024.sty, which NeurIPS distributes
+separately. Pick either route.
+
+ROUTE A - start from Overleaf's NeurIPS template (easiest)
+  1. Open overleaf.com -> New Project -> Templates -> search 'NeurIPS 2024'.
+  2. Create the project. It already contains neurips_2024.sty.
+  3. Delete the template's example .tex and .bib files.
+  4. Upload everything from this folder (report.tex, refs.bib, tab_*.tex,
+     and the figs/ folder - keep figs/ as a folder, do not flatten it).
+  5. Menu -> Main document -> report.tex.
+  6. Compiler must be pdfLaTeX. Click Recompile.
+
+ROUTE B - bring your own style file
+  1. Download neurips_2024.sty from https://neurips.cc/Conferences/2024/
+     (Call for Papers -> LaTeX style files).
+  2. New Project -> Upload Project -> this folder's zip.
+  3. Upload neurips_2024.sty into the project root.
+  4. Set the main document to report.tex and recompile.
+
+BEFORE SUBMITTING
+  - The \author{} block already carries the author name and student ID; add an
+    email line there only if your submission requires one.
+  - [final] is already set, so the paper prints with author names visible
+    (use [preprint] for an anonymous version).
+  - Bibliography: pdfLaTeX -> BibTeX -> pdfLaTeX twice, or just press
+    Recompile a second time on Overleaf.

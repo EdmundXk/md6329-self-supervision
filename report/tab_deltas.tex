@@ -1,0 +1,13 @@
+\begin{tabular}{llccc}
+\toprule
+Dataset & Initialisation & 1\% labels & 10\% labels & 100\% labels \\
+\midrule
+PneumoniaMNIST & ImageNet transfer & -0.012 & +0.018 & +0.006 \\
+ & in-domain SimCLR & +0.042$^{*}$ & +0.046$^{*}$ & +0.006 \\
+ & ImageNet + SimCLR & +0.051$^{*}$ & +0.051$^{*}$ & -0.004 \\
+\midrule
+DermaMNIST & ImageNet transfer & -0.001 & +0.028 & +0.034 \\
+ & in-domain SimCLR & -0.016 & +0.003 & +0.007 \\
+ & ImageNet + SimCLR & -0.011 & +0.023 & +0.010 \\
+\bottomrule
+\end{tabular}

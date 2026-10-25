@@ -1,0 +1,8 @@
+[lectrace]
+title = "MD6329 — When Does Self-Supervision Beat ImageNet?"
+
+# Only the presentation is a lecture. Without this, auto-discovery would try to
+# trace run_sweep.py and the other drivers, which need a GPU, the datasets and
+# the pretrained checkpoints.
+lectures = ["lectrace_presentation.py"]
+output = "_site"
